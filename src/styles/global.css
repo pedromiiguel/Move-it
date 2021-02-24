@@ -12,15 +12,27 @@
   --blue-twitter: #2AA9E0;
 }
 
+@media(max-width:1480px) {
+  html {
+    font-size: 85.75%;
+  }
+}
+
 @media(max-width:1080px) {
   html {
-    font-size: 93.75%;
+    font-size: 70.75%;
   }
 }
 
 @media(max-width:720px) {
   html {
-    font-size: 87.5%;
+    font-size: 60.5%;
+  }
+}
+
+@media(max-width:550px) {
+  html {
+    font-size: 50.5%;
   }
 }
 
@@ -33,6 +45,7 @@
 body {
   background:var(--background);
   color: var(--text);
+  outline: none;
 }
 
 body, input, button, textarea {
